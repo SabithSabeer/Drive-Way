@@ -1,0 +1,21 @@
+
+echo "node_modules/
+.env
+*.pkl
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
+.DS_Store
+.ipynb_checkpoints/
+ml_models/
+*.pkl
+Backend/csv/car_price_dataset.csv  # This is likely large too
+Backend/ml_models/
+frontend/node_modules/
+frontend/build/
+.DS_Store
+*.log
+database.db" > .gitignore
+
+
+
